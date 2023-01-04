@@ -1,0 +1,33 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+section{
+    width: 100%;
+}
+
+section form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.b1, .b2, .c1, .c2, .d1, .d2, .k1, .k2, .m1, .m2, .raj1, .raj2, .rang1, .rang2, .s1, .s2{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+/* .show{
+    display: block;
+} */
